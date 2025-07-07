@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-header {
+    height: 160px;
+    padding: 10px 20px;
+    background-color: green;
+    font-size: 6rem;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(0, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: height 0.3s ease, font-size 0.3s ease, padding 0.3s ease;
+}
+/* Ai generated */
+@media screen and (max-width: 768px) {
+    .app-header {
+        height: 120px;
+        font-size: 3.5rem;
+        padding: 8px 15px;
+    }
+}
+/* Ai generated */
+@media screen and (max-width: 480px) {
+    .app-header {
+        height: 80px;
+        font-size: 2rem;
+        padding: 5px 10px;
+    }
+}
+/* Ai generated */
+@media screen and (max-width: 400px) {
+    .app-header {
+        font-size: 1.5rem;
+        height: 60px;
+        padding: 5px;
+    }
+}
+
+.app-content {
+    padding: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    min-width: 100px;
+    margin: 10px;
+    max-width: 500px;
+    height: 50px;
+    border-radius: 50px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.search-button {
+    min-width: 64px;
+    width: 110px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family: Verdana;
+    background-color: rgb(0, 255, 0);
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.result-item {
+    max-width: 500px;
+    max-height: 400px;
+    border: 3px solid black;
+    border-radius: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.description {
+    display: block;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 3px solid black;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.load-more {
+    display: none;
+    justify-content: center;
+    width: 110px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 auto;
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Arial Narrow Bold',;
+}
